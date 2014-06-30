@@ -7,7 +7,7 @@ Contains the source of a software programmed on JAVA which writes the VHDL entit
 Codes:
 
 Contains the .bit files for RS(7,3),RS(15,3),RS(15,5),RS(15,7),RS(15,9) ready to be programmed on a FPGA Spartan 3AN. The folder called 15-7 contains the .vhd that were created by the program ReedSolomon_v2.0.jar
-for a code RS(15,7).
+for a code RS(7,3).
 
 The book: 'Implementation of a reconfigurable coder and decoder Reed-Solomon on a FPGA' is a description about the thesis degree, unfortunately this book has not been translated to English and is only available in a Spanish version.
 
