@@ -1,0 +1,18 @@
+This is a reconfigurable Reed-Solomon implementacion on a FPGA.
+
+CodificadorRS folder:
+
+Contains the source of a software programmed on JAVA which writes the VHDL entities of any Reed-Solomon coder and decoder.
+
+Codes:
+
+Contains the .bit files for RS(7,3),RS(15,3),RS(15,5),RS(15,7),RS(15,9) ready to be programmed on a FPGA Spartan 3AN. The folder called 15-7 contains the .vhd that were created by the program ReedSolomon_v2.0.jar
+for a code RS(15,17).
+
+The book: 'Implementation of a reconfigurable coder and decoder Reed-Solomon on a FPGA' is a description about the thesis degree, unfourtanly this book has not been translated to English and is only available in a Spanish version.
+
+If somebody could translate the book, It would be awsome!!
+
+In the book is explained how the whole thesis was developed and implemented. Also there is a explanation of how to use the software and the algorithms used in the hardware implementation and the generalzation of these to create any RS code.
+
+If you have any question about this project you can contact me via email.
