@@ -1,4 +1,5 @@
-This is a reconfigurable Reed-Solomon implementacion on a FPGA.
+
+#Reconfigurable Reed-Solomon implementacion on a FPGA.
 
 Reed-Solomon_v2.0 program can create any Reed-Solomon coder and decoder to be programmed on a FPGA. PC communicates with the FPGA through UART protocol so you can send data to the coder and then these data are became in codewords to be transmitted on a channel that is emulated into the FPGA, the codewords are corrupted with a probability which is assigned by the user and then these codewords are sending to the decoder to detect and correct the errors; in this way you can prove any Reed-Solomon code that you create on the software and which is programmed on the FPGA.
 
