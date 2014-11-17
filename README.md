@@ -8,13 +8,17 @@ Among all codes which have been implemented, there is one which is presented in 
 This repository is about the implementation of Reed-Solomon codes, you will find a book on PDF written by me. In the first chapter the
 objectives of this work are exposed, continuing with the introduction of the different kind of error correction and detection codes. After that, we explain the importance of the Galois Fields to build up these codes and how the Galois addition and multiplication operations are implemented on hardware in order to work with Reed-Solomon codes on a FPGA. Later, it is described the idea behind Reed-Solomon coding, the coding algorithm is shown along with its implementation. This implementation is generalized to any Reed-Solomon code. After that we explain Reed-Solomon decoding and each module that composes it. We generalize the algorithm and the implementation to be able to build up any Reed-Solomon decoding. In the chapter 6 it is described the type of communication that was used between FPGA and the computer which is used to test the Reed-Solomon codes, besides, we explain about the a control panel that we made which was used to configure the coding, a noise module and the decoding inside FPGA in order to validate the codes. Finally, we expose the results and conclusions of the implementation and it is proposed some future works in the area.
 
-Reed-Solomon_v2.0 program can create any Reed-Solomon coder and decoder to be programmed on a FPGA. PC communicates with the FPGA through UART protocol so you can send data to the coder and then these data are became in codewords to be transmitted on a channel that is emulated into the FPGA, the codewords are corrupted with a probability which is assigned by the user and then these codewords are sending to the decoder to detect and correct the errors; in this way you can prove any Reed-Solomon code that you create on the software and which is programmed on the FPGA.
+## File description
 
-### CodificadorRS folder:
+### Reed-Solomon_v2.0
+
+ This program can create any Reed-Solomon coder and decoder to be programmed on a FPGA. PC communicates with the FPGA through UART protocol so you can send data to the coder and then these data are became in codewords to be transmitted on a channel that is emulated into the FPGA, the codewords are corrupted with a probability which is assigned by the user and then these codewords are sending to the decoder to detect and correct the errors; in this way you can prove any Reed-Solomon code that you create on the software and which is programmed on the FPGA.
+
+### CodificadorRS folder
 
 Contains the source of a software programmed on JAVA which writes the VHDL entities of any Reed-Solomon coder and decoder.
 
-### Codes:
+### Codes folder:
 
 Contains the .bit files for RS(7,3),RS(15,3),RS(15,5),RS(15,7),RS(15,9) ready to be programmed on a FPGA Spartan 3AN. The folder called 15-7 contains the .vhd that were created by the program ReedSolomon_v2.0.jar
 for a code RS(7,3).
