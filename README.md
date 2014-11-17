@@ -8,7 +8,7 @@ Among all codes which have been implemented, there is one which is presented in 
 This repository is about the implementation of Reed-Solomon codes, you will find a book on PDF written by me. In the first chapter the
 objectives of this work are exposed, continuing with the introduction of the different kind of error correction and detection codes. After that, we explain the importance of the Galois Fields to build up these codes and how the Galois addition and multiplication operations are implemented on hardware in order to work with Reed-Solomon codes on a FPGA. Later, it is described the idea behind Reed-Solomon coding, the coding algorithm is shown along with its implementation. This implementation is generalized to any Reed-Solomon code. After that we explain Reed-Solomon decoding and each module that composes it. We generalize the algorithm and the implementation to be able to build up any Reed-Solomon decoding. In the chapter 6 it is described the type of communication that was used between FPGA and the computer which is used to test the Reed-Solomon codes, besides, we explain about the a control panel that we made which was used to configure the coding, a noise module and the decoding inside FPGA in order to validate the codes. Finally, we expose the results and conclusions of the implementation and it is proposed some future works in the area.
 
-## File description
+## File descriptions
 
 ### Reed-Solomon_v2.0
 
