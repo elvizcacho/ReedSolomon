@@ -23,7 +23,7 @@ for a code RS(7,3).
 
 'Implementation of a reconfigurable coder and decoder Reed-Solomon on a FPGA' is a description about this work, unfortunately this book has not been translated to English and is only available in a Spanish version.
 
-If somebody could translate the book, It would be awesome!!
+If somebody can translate the book, It would be awesome!!
 
 If you have any question about this project you can contact me via email.
 
