@@ -10,18 +10,18 @@ objectives of this work are exposed, continuing with the introduction of the dif
 
 Reed-Solomon_v2.0 program can create any Reed-Solomon coder and decoder to be programmed on a FPGA. PC communicates with the FPGA through UART protocol so you can send data to the coder and then these data are became in codewords to be transmitted on a channel that is emulated into the FPGA, the codewords are corrupted with a probability which is assigned by the user and then these codewords are sending to the decoder to detect and correct the errors; in this way you can prove any Reed-Solomon code that you create on the software and which is programmed on the FPGA.
 
-## CodificadorRS folder:
+### CodificadorRS folder:
 
 Contains the source of a software programmed on JAVA which writes the VHDL entities of any Reed-Solomon coder and decoder.
 
-## Codes:
+### Codes:
 
 Contains the .bit files for RS(7,3),RS(15,3),RS(15,5),RS(15,7),RS(15,9) ready to be programmed on a FPGA Spartan 3AN. The folder called 15-7 contains the .vhd that were created by the program ReedSolomon_v2.0.jar
 for a code RS(7,3).
 
-## The book:
+### The book:
 
-'Implementation of a reconfigurable coder and decoder Reed-Solomon on a FPGA' is a description about the this work, unfortunately this book has not been translated to English and is only available in a Spanish version.
+'Implementation of a reconfigurable coder and decoder Reed-Solomon on a FPGA' is a description about this work, unfortunately this book has not been translated to English and is only available in a Spanish version.
 
 If somebody could translate the book, It would be awesome!!
 
