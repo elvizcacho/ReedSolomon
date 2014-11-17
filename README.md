@@ -1,7 +1,7 @@
 
 # Implementation of a reconfigurable coder and decoder Reed-Solomon on a FPGA.
 
-Detection and correction codes have been widely used in the last decades, because of them it is possible to guarantee reliable transmissions, avoiding the loss of information.Thanks to these codes, it is possible to send information to so long distances as those we can find in the space and with no loss of information. Because of this, the study of the correction and detection codes has been studied from 60’s to now.
+Detection and correction codes have been widely used in the last decades, because of them it is possible to guarantee reliable transmissions, avoiding the loss of information.Thanks to these codes, it is possible to send information to so long distances as those we can find in the space and with no loss of information. Because of this, the study of the correction and detection codes has been studied from '60s to now.
 
 Among all codes which have been implemented and purposed, there is one which is presented in the most applications. Reed-Solomon codes have been implemented in areas such as mobile telephony, storage devices (CD), space crafts (the Galileo spacecraft to Jupiter in 1989, the Magellan spacecraft to Venus same year or the Ulysses spacecraft to the sun in 1990) and of course, on satellite transmissions of Digital Video Broadcasting (DVB), digital television ISDB-T and on xDLS systems of wired communications.
 
